@@ -34,20 +34,20 @@ for i in range(dov):
 while True:
     num = int(input("Введіть число: "))
     if num > 0:
-        print("Number is positive")
+        print("number is positive")
     elif num < 0:
-        print("Number is negative")
+        print("numbwr is negative")
     else:
-        print("Number is equal to zero")
+        print("mumber is equal to zero")
     
     if num == 7:
-        print("Good bye!")
+        print("good bye!")
         break
 
 numbers = []
 
 while 1:
-    num = int(input("Введіть число: "))
+    num = int(input("введіть число: "))
     if num == 7:
         print("Good bye!")
         break
@@ -56,32 +56,32 @@ while 1:
 if len(numbers) > 0:
     print("Сума:", sum(numbers))
     print("Максимум:", max(numbers))
-    print("Мінімум:", min(numbers))
+    print("мінімум:", min(numbers))
 else:
-    print("Жодного числа не введено.")
+    print("жодного числа не введено.")
     
 while 1:
-    N = int(input("Введіть ціле число N: "))
+    N = int(input("введіть ціле число N: "))
     
     if N <= 1:
-        print("Число має бути більшим за 1")
+        print("число має бути більшим за 1")
         break
 
     i = 2
     while i * i <= N:
         if N % i == 0:
-            print("Число", N, "не є простим.")
+            print("число", N, "не є простим.")
             break
         i = i + 1
     else:
-        print("Число", N, "є простим.")
+        print("число", N, "є простим.")
         
-N = int(input("Введіть ціле число N: "))
+N = int(input("введіть ціле число N: "))
 a = 0
 b = 1
 
 if N == 0:
-    print("Число", N, "належить послідовності Фібоначчі")
+    print("число", N, "належить послідовності Фібоначчі")
 else:
     while b < N:
         c = a + b
@@ -89,6 +89,6 @@ else:
         b = c
 
     if b == N:
-        print("Число", N, "належить послідовності Фібоначчі")
+        print("число", N, "належить послідовності Фібоначчі")
     else:
-        print("Число", N, "не належить послідовності Фібоначчі")
+        print("число", N, "не належить послідовності Фібоначчі")
